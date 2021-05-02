@@ -4,10 +4,7 @@
 #include <limits.h>
 #include <omp.h>
 #define SEED 123456
-
-
 unsigned int seed = 676767676 ;
-
 
 //Random number generator with linear congruential generator
 double randUint( long i ){
